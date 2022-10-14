@@ -14,4 +14,8 @@
     <Version>1.0.2</Version>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\nuget.yml" />
+  </ItemGroup>
+
 </Project>
