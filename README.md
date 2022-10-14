@@ -4,10 +4,10 @@ UBL 2.0/2.1 classes for SUNAT PE
 [UBLSunatPE](https://www.nuget.org/packages/UBLSunatPE).
 
 ## Package Manager
-Install-Package UBLSunatPE -Version 1.0.0
+Install-Package UBLSunatPE -Version 1.0.5
 
 ## DotNET CLI
-dotnet add package UBLSunatPE --version 1.0.0
+dotnet add package UBLSunatPE --version 1.0.5
 
 ## Usage
 Create invoice
