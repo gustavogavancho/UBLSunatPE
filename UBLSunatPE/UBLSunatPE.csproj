@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include=".github\workflows\nuget.yml" />
+    <None Include=".github\workflows\dotnet.yml" />
   </ItemGroup>
 
 </Project>
