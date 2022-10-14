@@ -1,7 +1,7 @@
 # UBLSunatPE
 UBL 2.0/2.1 classes for SUNAT PE
 
-[UBLSunatPE](https://pages.github.com/).
+[UBLSunatPE](https://www.nuget.org/packages/UBLSunatPE).
 
 ## Package Manager
 Install-Package UBLSunatPE -Version 1.0.0
