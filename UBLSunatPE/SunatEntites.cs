@@ -54081,6 +54081,9 @@ public partial class DespatchAdviceType {
     [XmlAttribute(AttributeName = "udt", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Udt { get; set; }
 
+    [XmlAttribute(AttributeName = "xsi", Namespace = "http://www.w3.org/2000/xmlns/")]
+    public string Xsi { get; set; }
+
     private UBLExtensionType[] uBLExtensionsField;
     
     private UBLVersionIDType uBLVersionIDField;
@@ -54428,6 +54431,9 @@ public partial class SummaryDocumentsType {
     [XmlAttribute(AttributeName = "udt", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Udt { get; set; }
 
+    [XmlAttribute(AttributeName = "xsi", Namespace = "http://www.w3.org/2000/xmlns/")]
+    public string Xsi { get; set; }
+
     private UBLExtensionType[] uBLExtensionsField;
     
     private UBLVersionIDType uBLVersionIDField;
@@ -54569,7 +54575,7 @@ public partial class SummaryDocumentsType {
 [System.Xml.Serialization.XmlRootAttribute("VoidedDocuments", Namespace="urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1", IsNullable=false)]
 public partial class VoidedDocumentsType {
 
-    [XmlAttribute(AttributeName = "xmlns")]
+    [XmlAttribute(AttributeName = "xmlns", Namespace = "urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1")]
     public string Xmlns { get; set; }
 
     [XmlAttribute(AttributeName = "cac", Namespace = "http://www.w3.org/2000/xmlns/")]
@@ -54578,20 +54584,17 @@ public partial class VoidedDocumentsType {
     [XmlAttribute(AttributeName = "cbc", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Cbc { get; set; }
 
-    [XmlAttribute(AttributeName = "ccts", Namespace = "http://www.w3.org/2000/xmlns/")]
-    public string Ccts { get; set; }
-
     [XmlAttribute(AttributeName = "ds", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Ds { get; set; }
 
     [XmlAttribute(AttributeName = "ext", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Ext { get; set; }
 
-    [XmlAttribute(AttributeName = "qdt", Namespace = "http://www.w3.org/2000/xmlns/")]
-    public string Qdt { get; set; }
+    [XmlAttribute(AttributeName = "sac", Namespace = "http://www.w3.org/2000/xmlns/")]
+    public string Sac { get; set; }
 
-    [XmlAttribute(AttributeName = "udt", Namespace = "http://www.w3.org/2000/xmlns/")]
-    public string Udt { get; set; }
+    [XmlAttribute(AttributeName = "xsi", Namespace = "http://www.w3.org/2001/XMLSchema-instance")]
+    public string Xsi { get; set; }
 
     private UBLExtensionType[] uBLExtensionsField;
     
@@ -54757,6 +54760,9 @@ public partial class CreditNoteType {
 
     [XmlAttribute(AttributeName = "udt", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Udt { get; set; }
+
+    [XmlAttribute(AttributeName = "xsi", Namespace = "http://www.w3.org/2000/xmlns/")]
+    public string Xsi { get; set; }
 
     private UBLExtensionType[] uBLExtensionsField;
     
@@ -55456,6 +55462,9 @@ public partial class DebitNoteType {
     [XmlAttribute(AttributeName = "udt", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Udt { get; set; }
 
+    [XmlAttribute(AttributeName = "xsi", Namespace = "http://www.w3.org/2000/xmlns/")]
+    public string Xsi { get; set; }
+
     private UBLExtensionType[] uBLExtensionsField;
     
     private UBLVersionIDType uBLVersionIDField;
@@ -56127,6 +56136,9 @@ public partial class InvoiceType {
 
     [XmlAttribute(AttributeName = "udt", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Udt { get; set; }
+
+    [XmlAttribute(AttributeName = "xsi", Namespace = "http://www.w3.org/2000/xmlns/")]
+    public string Xsi { get; set; }
 
     private UBLExtensionType[] uBLExtensionsField;
     
