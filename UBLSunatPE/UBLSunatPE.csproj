@@ -6,7 +6,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>UBL 2.0/2.1 base classes for SUNAT PE</Title>
     <Authors>Gustavo Gavancho Leon</Authors>
-    <Description>UBL 2.0/2.1 base classes for SUNAT PE and instantiate invoices, voidedDocuments, creditNotes, and so on.</Description>
+    <Description>UBL 2.0/2.1 base classes for SUNAT PE</Description>
     <PackageProjectUrl>https://www.nuget.org/packages/UBLSunatPE/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/gustavogavancho/UBLSunatPE</RepositoryUrl>
     <PackageTags>Ubl</PackageTags>
