@@ -3,6 +3,15 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>UBL 2.0/2.1 base classes for SUNAT PE</Title>
+    <Authors>Gustavo Gavancho Leon</Authors>
+    <Description>UBL 2.0/2.1 base classes for SUNAT PE and instantiete invoices, voidedDocuments, creditNotes, and so on.</Description>
+    <PackageProjectUrl>https://www.nuget.org/packages/UBLSunatPE/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/gustavogavancho/UBLSunatPE</RepositoryUrl>
+    <PackageTags>Ubl</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>
