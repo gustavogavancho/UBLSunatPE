@@ -9,7 +9,7 @@ namespace UBLSunatPE;
 [System.ComponentModel.DesignerCategoryAttribute("code")]
 [System.Xml.Serialization.XmlTypeAttribute(Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2")]
 [System.Xml.Serialization.XmlRootAttribute("AcceptanceTransportEvent", Namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", IsNullable=false)]
-public partial class TransportEventType {
+public partial class TransportEventType { 
     
     private IdentificationIDType identificationIDField;
     
