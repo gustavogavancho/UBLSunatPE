@@ -14,7 +14,7 @@ Create invoice
 ```
 var invoiceType = new InvoiceType
 {
-    //Cabeceras
+    //Headers
     Cac = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
     Cbc = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
     Ccts = "urn:un:unece:uncefact:documentation:2",
