@@ -4,17 +4,17 @@ UBL 2.0/2.1 classes for SUNAT PE
 [UBLSunatPE](https://www.nuget.org/packages/UBLSunatPE).
 
 ## Package Manager
-Install-Package UBLSunatPE -Version 1.0.0
+Install-Package UBLSunatPE -Version 1.0.5
 
 ## DotNET CLI
-dotnet add package UBLSunatPE --version 1.0.0
+dotnet add package UBLSunatPE --version 1.0.5
 
 ## Usage
 Create invoice
 ```
 var invoiceType = new InvoiceType
 {
-    //Cabeceras
+    //Headers
     Cac = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
     Cbc = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
     Ccts = "urn:un:unece:uncefact:documentation:2",
