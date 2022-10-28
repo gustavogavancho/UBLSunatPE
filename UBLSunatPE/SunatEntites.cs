@@ -54425,6 +54425,9 @@ public partial class SummaryDocumentsType {
     [XmlAttribute(AttributeName = "ext", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Ext { get; set; }
 
+    [XmlAttribute(AttributeName = "sac", Namespace = "http://www.w3.org/2000/xmlns/")]
+    public string Sac { get; set; }
+
     [XmlAttribute(AttributeName = "qdt", Namespace = "http://www.w3.org/2000/xmlns/")]
     public string Qdt { get; set; }
 
