@@ -3,11 +3,16 @@ UBL 2.0/2.1 classes for SUNAT PE
 
 [UBLSunatPE](https://www.nuget.org/packages/UBLSunatPE).
 
+## .NET Compatibility (FYI)
+UBLSunatPE -Version 1.0.6 ======> .NET 6
+
+UBLSunatPE -Version 1.0.7 ======> .NET 7
+
 ## Package Manager
-Install-Package UBLSunatPE -Version 1.0.5
+Install-Package UBLSunatPE -Version 1.0.6
 
 ## DotNET CLI
-dotnet add package UBLSunatPE --version 1.0.5
+dotnet add package UBLSunatPE --version 1.0.6
 
 ## Usage
 Create invoice
