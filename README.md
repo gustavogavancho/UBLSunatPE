@@ -8,6 +8,8 @@ UBLSunatPE -Version 1.0.6 ======> .NET 6
 
 UBLSunatPE -Version 1.0.7 ======> .NET 7
 
+UBLSunatPE -Version 1.0.8 ======> .NET 6, 7
+
 ## Package Manager
 Install-Package UBLSunatPE -Version 1.0.6
 
